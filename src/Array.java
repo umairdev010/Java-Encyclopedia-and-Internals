@@ -1,6 +1,5 @@
 import java.util.Arrays;
-
-class Array {
+public class Array {
     static void main(String[] args) {
         // what is an array?
         // Array is a collection of likely typed variables which is referred by a common name.
@@ -60,11 +59,16 @@ class Array {
         Arrays.equals(marks,new int[]{1,2,34,5});
         // 5. arr.fill
         Arrays.fill(marks,5); // it will fill all marks to 5 {5,5,5,5,5}
-        System.out.println(marks);
+        System.out.println(Arrays.toString(marks));
         // 6. aar.asList
         Arrays.asList(marks); // convert array to list
         // 7. arr.stream
         Arrays.stream(marks).map(n -> n); // make a stream to use functional programming
-        // 8.
+        // 8. arr.clone
+        int[] newMarks = marks.clone(); // used to clone a array
+        System.out.println(Arrays.toString(newMarks));
+
+
+
     }
 }
