@@ -72,6 +72,14 @@ public class Variables {
         // because we own define to store large type to store in small type
         // we can achieve this by (target-type) value
 
+        // In conversion like if int to byte and int value is greater.  Then reduce modulo(divide the value by range) occurs.
+        // In conversion like if float to int then its decimal point is removed "truncation"
+
+        // Promotion Rules in Java
+        // Means if evaluating a expression and value became large java automatically return large type for example
+        // For byte,shot and char are promoted to int.
+        // If on side operad is any float , double and long. Then value converted to that type
+
 
 
     }
