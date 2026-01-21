@@ -1,4 +1,6 @@
-public class Arrays {
+import java.util.Arrays;
+
+class Array {
     static void main(String[] args) {
         // what is an array?
         // Array is a collection of likely typed variables which is referred by a common name.
@@ -47,9 +49,13 @@ public class Arrays {
 
         // there is first bracket shows number of row and second shoes number of columns
 
-
-
-
+        // Array useful methods
+        // 1. arr.lenght
+        System.out.println(nameOfMonths.length); // .length is called on array without parenthesis but in String we have to use it
+        // 2. arr.sort
+        Arrays.sort(marks);
+        // 3. arr.tostring
+        System.out.println(Arrays.toString(marks));
 
     }
 }
