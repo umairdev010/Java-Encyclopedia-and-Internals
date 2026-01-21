@@ -63,7 +63,14 @@ public class Variables {
 
 
         // Type Conversion And Typed Casting
-
+        // Java Automatic Conversion (implicit) occurs when 02 conditions meet
+        // 1. Both types are compatible
+        // 2. The destination Type is larger then the source type
+        // This type of conversion is called widening conversion
+        // casting Incompatible types (explicit)
+        // This type of conversion is called narrowing conversion.
+        // because we own define to store large type to store in small type
+        // we can achieve this by (target-type) value
 
 
 
