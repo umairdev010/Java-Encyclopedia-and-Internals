@@ -56,6 +56,15 @@ class Array {
         Arrays.sort(marks);
         // 3. arr.tostring
         System.out.println(Arrays.toString(marks));
-
+        // 4. arr.equals
+        Arrays.equals(marks,new int[]{1,2,34,5});
+        // 5. arr.fill
+        Arrays.fill(marks,5); // it will fill all marks to 5 {5,5,5,5,5}
+        System.out.println(marks);
+        // 6. aar.asList
+        Arrays.asList(marks); // convert array to list
+        // 7. arr.stream
+        Arrays.stream(marks).map(n -> n); // make a stream to use functional programming
+        // 8.
     }
 }
