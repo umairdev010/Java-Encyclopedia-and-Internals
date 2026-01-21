@@ -62,7 +62,7 @@ public class Variables {
         // parameters when we pass arguments to function and method it become a new copy to pass which used in function
 
 
-
+        // Type Conversion And Typed Casting
 
 
 
