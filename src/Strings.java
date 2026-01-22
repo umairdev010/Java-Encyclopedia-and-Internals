@@ -49,7 +49,12 @@ public class Strings {
         // 5.trim
         System.out.println(name.trim());
         // 6.isEmpty used to check string is empty or not
-
+        // 7.contains very useful used to find a string and char return true / false
+        System.out.println(name.contains("a"));
+        // 8.startswith /endswith used ot check prefix and suffix
+        // 9.indexof / lastIndexOf we used to check index of particular char
+        // 10.substring very useful for getting pice of string from the other string
+        System.out.println(name.substring(1,3)); // second index is not included it cuts from 1 to 2
 
     }
 }
