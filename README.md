@@ -88,6 +88,21 @@ This isn't just another Java tutorial repository. It's a **complete encyclopedia
 - 🎯 Practical string concatenation techniques
 - 💡 Performance optimization with mutable strings
 
+#### ⚙️ **Operators.java** - Mastering Java's Operational Arsenal
+> *Learn how to manipulate data and control program flow with precision*
+
+**What's Inside:**
+- ➕ Arithmetic operators (+, -, *, /, %) for mathematical calculations
+- 🔍 Relational operators (==, !=, >, <, >=, <=) for comparing values
+- 🧩 Logical operators (&&, ||, ^, !, &, |) for combining boolean expressions
+- 📌 Assignment operators (=, +=, -=, *=, /=) for storing and updating values
+- 🔄 Unary operators (++, --, +, -, ~) for single operand operations
+- 🔢 Bitwise operators (&, |, ^, ~) for low-level bit manipulation
+- ⚡ Ternary operator (?:) for concise conditional expressions
+- ↔️ Shift operators (<<, >>, >>>) for moving bits left and right
+- 🎯 Pre/post increment and decrement behavior
+- 💡 Short-circuit evaluation in logical operations
+
 ---
 
 ## 🎨 What Makes This Different?
