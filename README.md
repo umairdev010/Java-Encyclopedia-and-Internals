@@ -37,7 +37,7 @@ This isn't just another Java tutorial repository. It's a **complete encyclopedia
 
 ### 🏗️ Foundation Concepts
 
-#### 📦 **[Variables.java](Variables.java)** - Understanding Java's Type System
+#### 📦 **Variables.java** - Understanding Java's Type System
 > *Master the building blocks of Java programming*
 
 **What's Inside:**
@@ -49,7 +49,7 @@ This isn't just another Java tutorial repository. It's a **complete encyclopedia
 - ⚡ Promotion rules in expressions
 - 🧠 IEEE-754 standard for floating-point numbers
 
-#### 📊 **[Array.java](Array.java)** - Mastering Java Arrays
+#### 📊 **Array.java** - Mastering Java Arrays
 > *Unlock the power of organized data storage*
 
 **What's Inside:**
@@ -65,6 +65,28 @@ This isn't just another Java tutorial repository. It's a **complete encyclopedia
     - `stream()` - Functional programming
     - `clone()` - Create copies
 - 🎪 Memory management insights
+
+#### 📦 **Strings.java** - Mastering String Manipulation in Java
+> *Deep dive into Java's most essential reference type*
+
+**What's Inside:**
+- 🔤 String fundamentals and object representation
+- 🔒 String immutability and memory management
+- 🏊 String Pool concept and memory optimization
+- 🔍 String comparison (== vs .equals())
+- 🧵 StringBuilder vs StringBuffer (mutability & thread-safety)
+- 🛠️ Essential String methods:
+  - `length()` - Get string size
+  - `charAt()` - Access individual characters
+  - `toUpperCase()` / `toLowerCase()` - Case conversion
+  - `trim()` - Remove whitespace
+  - `isEmpty()` - Check for empty strings
+  - `contains()` - Search for substrings
+  - `startsWith()` / `endsWith()` - Prefix/suffix checking
+  - `indexOf()` / `lastIndexOf()` - Character position lookup
+  - `substring()` - Extract string portions
+- 🎯 Practical string concatenation techniques
+- 💡 Performance optimization with mutable strings
 
 ---
 

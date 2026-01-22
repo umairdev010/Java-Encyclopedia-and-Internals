@@ -45,7 +45,7 @@ public class Strings {
         System.out.println(greeting.charAt(3));
         // 3.equals we already checked
         // 4.toUpperCase
-        System.out.println(name.toLowerCase());
+        System.out.println(name.toUpperCase());
         // 5.trim
         System.out.println(name.trim());
         // 6.isEmpty used to check string is empty or not
