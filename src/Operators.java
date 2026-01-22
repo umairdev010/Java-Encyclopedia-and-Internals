@@ -158,6 +158,15 @@ public class Operators {
         // 8. SHIFT OPERATORS
         // shift operators manipulate the bits of the numbers by moving them left and right
 
+        // there are three types of shift operators we have already cover them in the bit-wise operators section
+        // 1. Left shift <<
+        // 2. Right shift >>
+        // 3. Right shift (unsigned) >>>
+
+        // There full details already cover in bit-wise operator section
+
+
+        // -------------------------------------- THE END -----------------------------------------------//
 
 
             }
