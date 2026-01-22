@@ -113,8 +113,34 @@ public class Operators {
 
 
         // 6. BIT-WISE OPERATORS
+        // Bit-wise operators used to manipulate individual bits, gives low level control, performance and efficiency
 
+        // Bit-wise And & --> give result 1 only if both values are one
 
+        // Bit-wise OR | --> give result 0 only if both values are zero
+
+        // Bit-wise XOR ~ --> if both bits same give zero and both bits different give 1
+
+        // Bit-wise Not ! --> flip the all given bits
+
+        // Left shift << --> moves the bits to left side add zero on right
+        int g = 5; // 00000101
+        System.out.println(g << 1); // now 00001010 = 10
+        // no * (2 power n)
+
+        // Right shift (signed) >> --> moves the bits to right by 0 if positive number and by 1 if negative numbers
+        int f = 10; // 00001010
+        System.out.println(f >> 1); // 00000101 = 5
+        // no / (2 power n)
+
+        // Right shift(Unsigned) >>>  ---> always the bit by to right by 0. no matter positive and negative number
+        // means if number if -1. its has 1 in its first signed bit. means
+
+        byte t = -1 ; // 11111111
+        System.out.println(t >>> 1); // make it 01111111 = 128 but as it important to know that
+        // java convert it to int first which is 32 bit. so it is now not byte its int and it is = 01111111 11111111 11111111 11111111 which is equal to 2147483647 which is largest number of int
+
+        // one more concept
 
 
 
