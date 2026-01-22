@@ -140,7 +140,9 @@ public class Operators {
         System.out.println(t >>> 1); // make it 01111111 = 128 but as it important to know that
         // java convert it to int first which is 32 bit. so it is now not byte its int and it is = 01111111 11111111 11111111 11111111 which is equal to 2147483647 which is largest number of int
 
-        // one more concept
+        // one more concept about left shift << if the value if 1 means 00000001 and we shift it to 31 bit like
+        System.out.println(1 << 31); // it became the smallest number of int. because now 1 reached the first bit which is sign bit and we make it 1 and 1 is for negative
+
 
 
 
