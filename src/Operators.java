@@ -144,6 +144,20 @@ public class Operators {
         System.out.println(1 << 31); // it became the smallest number of int. because now 1 reached the first bit which is sign bit and we make it 1 and 1 is for negative
 
 
+        // 7. TERNARY OPERATOR
+        // it is only operator in java which takes three operands. it is the simplest way to write if else statement
+
+        // condition ? if true : if false;
+
+        System.out.println((4 < 7 ? "4 is smaller" : "7 is smaller"));
+        // in ternary we not used increment and decrement directly
+
+        int largest = 6 < 9 ? 9 : 6; // i am checking which if greater assign it to variable
+
+
+        // 8. SHIFT OPERATORS
+        // shift operators manipulate the bits of the numbers by moving them left and right
+
 
 
             }
