@@ -42,5 +42,33 @@ public class ControlStatements {
 
         // there are two ways to write switch statement
 
+        // 1.   switch (expression) {
+        //          case value1:
+        //              statement1;
+        //              break;
+        //          case value2:
+        //              statement2;
+        //              break;
+        //
+        //          default : last statement is no case execute
+        //  }
+
+        int marks = 80;
+
+        switch (marks){
+            case  80 :
+                System.out.println("VERY GOOD");
+                break;
+            case 70 :
+                System.out.println("GOOD");
+            default:
+                System.out.println("Student don't fall in these criteria");
+        }
+
+        // DATA Types Allowed in Switch
+        // int,byte,shot,char
+        // String also allowed Java 7+
+
+        // 2. we can assign switch to a variable
     }
 }
