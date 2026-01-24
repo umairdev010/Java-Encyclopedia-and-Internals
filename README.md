@@ -103,6 +103,21 @@ This isn't just another Java tutorial repository. It's a **complete encyclopedia
 - 🎯 Pre/post increment and decrement behavior
 - 💡 Short-circuit evaluation in logical operations
 
+#### 📦 **ControlStatements.java** - Mastering Program Flow Control
+> *Control the execution path of your Java programs*
+
+**What's Inside:**
+- 🔀 Selection statements (if/else and switch)
+- ✅ Boolean conditions and branching logic
+- 🛠️ If-else-if ladder for multiple conditions
+- 🎯 Switch statement for multiway branching
+- 🔄 Traditional and modern switch syntax (Java 7+)
+- 💡 Supported data types in switch (int, byte, short, char, String)
+- ➡️ Arrow syntax (->) for switch expressions
+- ⚡ Fall-through behavior and break statements
+- 🚫 Important gotchas (dangling else, null in switch, case equality)
+- 🎓 Best practices for control flow
+
 ---
 
 ## 🎨 What Makes This Different?
