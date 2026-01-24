@@ -131,6 +131,19 @@ This isn't just another Java tutorial repository. It's a **complete encyclopedia
 - 🎨 Iterator patterns and read-only data access
 - 🔐 Best practices: update statements, continue behavior, and scope management
 
+#### 🚀 **JumpStatements.java** - Controlling Program Flow with Jumps
+> *Master control transfer mechanisms in Java*
+
+**What's Inside:**
+- 🛑 **Break Statement** - Terminate loops and switch statements immediately
+- ⏭️ **Continue Statement** - Skip specific iterations and move to the next cycle
+- 🔙 **Return Statement** - Exit methods and send values back to callers
+- 🏷️ Labeled break for nested loop control
+- 🎯 Breaking outer loops from inner loops using labels
+- ⚡ Flow control patterns and when to use each statement
+- 🔄 Skipping iterations vs terminating loops
+- ✅ Best practices: infinite loop prevention and method exit strategies
+
 ---
 
 ## 🎨 What Makes This Different?
