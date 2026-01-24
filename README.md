@@ -118,6 +118,19 @@ This isn't just another Java tutorial repository. It's a **complete encyclopedia
 - 🚫 Important gotchas (dangling else, null in switch, case equality)
 - 🎓 Best practices for control flow
 
+#### 🔁 **IterationStatements.java** - Mastering Java's Loop Mechanisms
+> *Control program flow through repetition and iteration*
+
+**What's Inside:**
+- 🔄 **For Loop** - Structured iteration with initialization, condition, and update
+- ⏳ **While Loop** - Pre-test loops for unknown iteration counts
+- ✅ **Do-While Loop** - Post-test loops guaranteeing at least one execution
+- 🎯 **For-Each Loop** - Enhanced iteration for collections and arrays (syntactic sugar)
+- 🔢 Loop control flow and when to use each type
+- ⚡ Performance considerations and JVM optimization
+- 🎨 Iterator patterns and read-only data access
+- 🔐 Best practices: update statements, continue behavior, and scope management
+
 ---
 
 ## 🎨 What Makes This Different?
