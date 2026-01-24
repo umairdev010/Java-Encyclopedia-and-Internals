@@ -42,6 +42,29 @@ public class IterationStatements {
         // it hard to optimize for jvm.
 
 
+        // 3. DO WHILE LOOP
+        // we used do while loop when we have to execute code block / task at least once.
+
+        // do {
+        //      body
+        //      update
+        // } while(condition)
+
+        int j = 0;
+        do {
+            System.out.println("hello umair from do while");
+            j++;
+        } while (j < 5);
+
+        // semi colon is required after while
+        // it used where at least one user interaction is required
+        // in it first code run then condition checked
+        // update it in the body
+
+
+
+
+
 
     }
 }
