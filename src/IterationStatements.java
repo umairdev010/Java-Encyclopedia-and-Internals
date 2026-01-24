@@ -1,3 +1,5 @@
+import java.util.Iterator;
+
 public class IterationStatements {
     static void main(String[] args) {
 
@@ -62,8 +64,25 @@ public class IterationStatements {
         // update it in the body
 
 
+        // 4. FOR EACH LOOP (ENHANCED FOR LOOP)
+        // it is basically not a loop. it is a synthetic sugar used when we want to read only and not required index
 
+        // for (int marks : marks){
+        //      System.out.println("mark");
+        // }
 
+        int[] marks = {80,56,79,74,34};
+
+        for (int mark : marks){
+            System.out.println(mark);
+        }
+
+        // under the hood it works as
+        for (int k = 0; k < marks.length; k++) {
+            System.out.println(marks[k]);
+        }
+
+        // we used it when we don't require index want to view and read values
 
 
     }
