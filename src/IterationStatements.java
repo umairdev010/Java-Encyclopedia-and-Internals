@@ -23,6 +23,25 @@ public class IterationStatements {
         // initialization in loop runs only once
         // we use for loop for performance
 
+        // 2. WHILE LOOP
+        // we used while loop when we don't know exact number of iterations.
+
+        // initialization
+        // while (condition){
+        //      body
+        //      update
+        // }
+
+        int i = 0;
+        while (i < 5){
+            System.out.println("ali " + i);
+            i++;
+        }
+        // while loop don't have built in update. so Don't forget to update it.
+        // in while loop update statement not always run like in for. if we use continue statement before update then it skip later part of code
+        // it hard to optimize for jvm.
+
+
 
     }
 }
