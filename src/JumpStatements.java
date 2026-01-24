@@ -1,4 +1,10 @@
-package PACKAGE_NAME;
-
 public class JumpStatements {
+    static void main(String[] args) {
+
+        // JUMP STATEMENTS
+
+
+
+
+    }
 }
