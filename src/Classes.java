@@ -35,7 +35,11 @@ public class Classes {
         // type is the simply type the method return. it will be simply a new Box object also.
         // if it doesn't return any thing then it will be void type. As our main method are.
 
+        // here we can make new object of class Box which takes parameters in its constructor
 
+        Box umairBox = new Box(20,5); // here we gives two augments
+
+        umairBox.area();
 
 
     }
@@ -52,7 +56,13 @@ class Box{
     // the job of a constructor is to initialize the internal state of object upon creation. so we get a usable object.
     // so understand the Box() after new is actually calling the constructor
 
+    // defining a construct
+    Box(){}
 
+    Box(int w ,int h){
+        width = w;
+        height = h;
+    }
 
     void area(){
         System.out.println("THE AREA IS " + height * width);
