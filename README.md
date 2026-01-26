@@ -144,6 +144,20 @@ This isn't just another Java tutorial repository. It's a **complete encyclopedia
 - 🔄 Skipping iterations vs terminating loops
 - ✅ Best practices: infinite loop prevention and method exit strategies
 
+#### 📦 **Classes.java** - Object-Oriented Programming Fundamentals
+> *Build reusable blueprints for creating objects*
+
+**What's Inside:**
+- 🏗️ Class definition and object instantiation
+- 📋 Instance variables and class members
+- 🔨 Constructors (default and parameterized)
+- 🎯 The `new` operator and dynamic memory allocation
+- 🔗 Reference variables and object references
+- 📞 Method declaration and invocation
+- 🔄 Object copying vs reference assignment
+- 💡 Understanding the difference between class (template) and object (instance)
+- ⚠️ Null references and garbage collection basics
+
 ---
 
 ## 🎨 What Makes This Different?
