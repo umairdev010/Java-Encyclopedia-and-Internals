@@ -37,7 +37,7 @@ public class Classes {
 
         // here we can make new object of class Box which takes parameters in its constructor
 
-        Box umairBox = new Box(20,5); // here we gives two augments
+        Box umairBox = new Box(20,5); // here we gives two augments. we can pass no any arguments then it also run.
 
         umairBox.area();
 
