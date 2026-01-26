@@ -19,6 +19,12 @@ public class Overloading {
 
         Square newSquare1 = new Square(); // here we make object of Square without passing any length to constructor
 
+        // call by value : when primitives type is passed to method its copy is created. then if we making a change in value. but original remain the same
+
+        // call by reference : when an object is passed to a method then it change the original object its copy is not created in argument like other types
+
+        // we can also return an object of type its class by making a method of it.
+
     }
 }
  class Square{
