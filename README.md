@@ -198,6 +198,22 @@ This isn't just another Java tutorial repository. It's a **complete encyclopedia
 - 🎯 Access modifier application on variables, methods, and classes
 - 💡 Best practices for data protection
 
+#### 📦 **OopsConcepts.java** - Advanced OOP Features and Modifiers
+> *Explore static members, nested classes, and modern Java features*
+
+**What's Inside:**
+- ⚡ **Static keyword** - class-level members and methods
+- 🏗️ Static blocks for initialization
+- 🔒 **Final keyword** - creating constants and immutable values
+- 📦 **Nested classes** - classes within classes
+- 🎯 Static nested classes vs non-static inner classes
+- 🔄 Scope and encapsulation in nested structures
+- 🎨 **Varargs** (variable-length arguments) - flexible method parameters
+- 📝 Variable arity methods with `...` syntax
+- 🤖 **var** type inference for cleaner code
+- 💡 Method overloading with varargs
+- 🧠 Best practices for static and final usage
+
 ---
 
 ## 🎨 What Makes This Different?
