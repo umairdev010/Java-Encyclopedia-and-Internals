@@ -171,7 +171,18 @@ This isn't just another Java tutorial repository. It's a **complete encyclopedia
 - 🎨 Practical examples with Square class
 - 💡 Polymorphism concepts in action
 
+#### 📦 **Recursion.java** - Understanding Recursive Function Calls
+> *Master the art of self-referential programming*
 
+**What's Inside:**
+- 🔁 Recursion fundamentals and concepts
+- 📐 Self-referential function definitions
+- 🎯 Base case and termination conditions
+- 🧮 Factorial calculation using recursion
+- ⚠️ Importance of exit conditions (preventing infinite loops)
+- 🔄 Function call stack mechanics
+- 💡 Practical recursive problem-solving
+- 🎨 Step-by-step recursive execution flow
 
 ---
 
