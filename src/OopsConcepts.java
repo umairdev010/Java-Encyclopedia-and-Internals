@@ -19,6 +19,28 @@ public class OopsConcepts {
         // we cannot used instance variables in static.
 
 
+        // FINAL KEYWORD
+        // we used keyword final to declare a variable constant. to prevent it from being modified.
+        // we can give it to value while initialization and in constructor of class when we made an object.
+        // once then variable is declared then its value cannot be changed by any means
+
+        final int marks = 86; // it cannot be changed by any means
+
+
+        // NESTED CLASSES
+        // It is possible to make classes into a class. These types of classes is called nested classes
+        // Scope of nested class is bounded to its enclosing class.
+        // There are 02 types of inner nested classes.
+
+        // 1. STATIC NESTED CLASS
+        // it is seldom used because we have to make an object of outer class to access things.
+        // it used word static before class name to make a class static
+
+        // 2. NON-STATIC NESTED CLASS
+        // it can directly use outer class members. And can declare its own also.
+        // but the outer class cannot access things from its inner class directly.
+
+
     }
 
     static void greeting(){
