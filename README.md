@@ -184,6 +184,20 @@ This isn't just another Java tutorial repository. It's a **complete encyclopedia
 - 💡 Practical recursive problem-solving
 - 🎨 Step-by-step recursive execution flow
 
+#### 📦 **AccessControl.java** - Mastering Access Modifiers and Encapsulation
+> *Control visibility and protect your code with access modifiers*
+
+**What's Inside:**
+- 🔒 Introduction to access control in Java
+- 🛡️ Encapsulation and prevention of misuse
+- 🔑 Four types of access modifiers explained
+- 🌍 **Public** - accessible from anywhere
+- 🚫 **Private** - restricted to same class only
+- 👨‍👩‍👧 **Protected** - accessible in inheritance hierarchy
+- 📦 **Default** (package-private) - same package access
+- 🎯 Access modifier application on variables, methods, and classes
+- 💡 Best practices for data protection
+
 ---
 
 ## 🎨 What Makes This Different?
