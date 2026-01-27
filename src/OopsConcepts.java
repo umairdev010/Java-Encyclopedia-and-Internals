@@ -41,6 +41,27 @@ public class OopsConcepts {
         // but the outer class cannot access things from its inner class directly.
 
 
+        // VARARGS & VARIABLE ARITY METHODS
+        // In java it is possible to pass variable number of arguments to method it is called varargs.
+        // And this method which accept variable number of arguments is known as variable arity method.
+        // A variable length arguments is represented by 03 dots ...
+        length(3,4,5,6,7); // here we passed 5 arguments
+        length(1,2,3); // here we passed 03.
+        // These two are correct and possible due to varargs.
+        // we can also pass normal parameters to the method with varargs like // length(num1,num2m,... array)
+        // Methods with varargs can also be loaded by is type of varargs and by passing normal paremeters
+
+        // var type interference
+        // As we previous know that var is used to initialize a variable who's type is auto taken by it declaration.
+        // As in primitive type, we can also used it in reference type means object class.
+        // As --->  var newclass1 = new MyClass{}      here is var auto take the Myclass as type.
+        // It is use while when full class name writting is long enough the
+
+
+    }
+
+    static void length(int... aray){ // In method aray is simply works as an Array.
+        System.out.println("THE LENGTH OF THE ARRAY IS : " + aray.length);
     }
 
     static void greeting(){
