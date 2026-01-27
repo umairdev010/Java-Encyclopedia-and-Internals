@@ -158,6 +158,21 @@ This isn't just another Java tutorial repository. It's a **complete encyclopedia
 - 💡 Understanding the difference between class (template) and object (instance)
 - ⚠️ Null references and garbage collection basics
 
+#### 📦 **Overloading.java** - Mastering Polymorphism Through Overloading
+> *Unlock the power of compile-time polymorphism in Java*
+
+**What's Inside:**
+- 🔄 Method overloading fundamentals
+- 📝 Multiple methods with same name, different parameters
+- 🎯 Parameter differentiation (type, number, order)
+- 🏗️ Constructor overloading techniques
+- ⚠️ Return type considerations in overloading
+- 📞 Call by value vs call by reference
+- 🎨 Practical examples with Square class
+- 💡 Polymorphism concepts in action
+
+
+
 ---
 
 ## 🎨 What Makes This Different?
