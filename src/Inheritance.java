@@ -34,8 +34,10 @@ class Human { // it is parent class known as super class
 class Student extends Human{
 
     Student(String name) {
-        super(name);
+        super(name); // super is used to call parent constructor. if it has no parameters there is no need to define but if it as parameters then we have to define
     }
+    // we can directly use parents variables and methods in subclass without any super.
+    // we have to use super only if we have multi level inheritance and one of the parent define the same name method and variable.
 
     void intro(){
         System.out.println("I AM A STUDENT.");
