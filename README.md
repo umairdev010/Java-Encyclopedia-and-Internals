@@ -240,6 +240,19 @@ This isn't just another Java tutorial repository. It's a **complete encyclopedia
 - ✅ Mandatory method implementation with @Override
 - 🔗 Practical example: Shape hierarchy with Rectangle subclass
 
+#### 📦 **Packages.java** - Organizing Code with Packages and Access Control
+> *Structure your Java projects with proper packaging and visibility management*
+
+**What's Inside:**
+- 📂 Packages as containers for organizing classes
+- 🏷️ Creating unique namespaces to avoid naming conflicts
+- 🔄 Using classes with identical names from different packages
+- 🔐 Access modifiers hierarchy (public, protected, default, private)
+- 📊 Access control matrix across classes and packages
+- 📥 Importing specific classes vs. entire packages
+- 🎯 Package-level access and inheritance rules
+- 🌳 Practical example: Multiple Introduction classes in separate packages
+
 ---
 
 ## 🎨 What Makes This Different?
