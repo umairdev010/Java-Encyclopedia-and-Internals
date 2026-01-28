@@ -214,6 +214,19 @@ This isn't just another Java tutorial repository. It's a **complete encyclopedia
 - 💡 Method overloading with varargs
 - 🧠 Best practices for static and final usage
 
+#### 📦 **Inheritance.java** - Mastering Object-Oriented Inheritance
+> *Unlock the power of code reusability and polymorphism*
+
+**What's Inside:**
+- 🌳 Class hierarchies (superclass/parent & subclass/child relationships)
+- 🔗 The `extends` keyword for inheritance implementation
+- 🎭 Method overriding vs method overloading
+- 🔑 The `super` keyword for parent class access
+- 🚀 Dynamic method dispatch (runtime polymorphism)
+- 🔒 Access modifiers and inheritance visibility rules
+- 🎯 Polymorphic reference variables
+- ⚡ Runtime vs compile-time method resolution
+
 ---
 
 ## 🎨 What Makes This Different?
