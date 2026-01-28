@@ -227,6 +227,19 @@ This isn't just another Java tutorial repository. It's a **complete encyclopedia
 - 🎯 Polymorphic reference variables
 - ⚡ Runtime vs compile-time method resolution
 
+#### 📦 **AbstractClass.java** - Mastering Abstraction and Inheritance Control
+> *Build robust class hierarchies with abstract classes and the final keyword*
+
+**What's Inside:**
+- 🎨 Abstract classes as blueprints for subclasses
+- 🚫 Understanding non-instantiable classes
+- 📋 Abstract methods and their implementation requirements
+- 🔒 Final keyword for variables (constants)
+- 🛡️ Final methods to prevent overriding
+- 🏛️ Final classes to prevent inheritance
+- ✅ Mandatory method implementation with @Override
+- 🔗 Practical example: Shape hierarchy with Rectangle subclass
+
 ---
 
 ## 🎨 What Makes This Different?
