@@ -9,6 +9,24 @@ public class Inheritance {
         Student umair = new Student("umair");
         umair.printName(); // we have not define printname function in student class but still we access it from the parent class
         // Anything in the superclass is accessible by its subclass except its private members.
+
+
+        // METHOD OVERRIDING
+        // if we make a method with same name which is already exists in superclass. then the method is said to be override.
+        // we used overriding if we don't want to used parents method and want to create class own.
+        // if we override the method but we want to use parents method then we use super with it
+        // method override only if they have both name and parameters type same. No difference.
+        // if there is any difference then it is known as method overloading
+
+
+        // DYNAMIC METHOD DISPATCH
+        // It is possible that we can define an object but gives it a type of its super class like
+        Human ali = new Student("ali");  // it is possible to create an object like that.
+        // in this case if both super class and the sub class have a same method.
+        // and we call this method on created object whose type is of super class and object created by subclass.
+        // so, it is decided at run time and to decided which class is being referred not the type of reference variable.
+        // so in this case the method of subclass will be executed.
+        // Overridden method allow java to perform run time polymorphism
         //
 
 
