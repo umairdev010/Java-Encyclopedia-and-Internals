@@ -50,7 +50,10 @@ public class ExceptionHandling {
 
 
         // JAVA'S BUILT IN EXCEPTIONS
-        //
+        // In java standard java package java.lang, java created different exceptional class already called built in exceptions
+        // There are two types of built-in exceptions
+        // 1. Unchecked Exceptions
+        // 2. Checked Exceptions
 
 
     }
