@@ -253,6 +253,21 @@ This isn't just another Java tutorial repository. It's a **complete encyclopedia
 - 🎯 Package-level access and inheritance rules
 - 🌳 Practical example: Multiple Introduction classes in separate packages
 
+#### 🔌 **Interfaces.java** - Mastering Java's Contract-Based Programming
+> *Build flexible, loosely-coupled applications with interfaces*
+
+**What's Inside:**
+- 📋 Interface declaration and implementation syntax
+- 🎭 Abstract methods (implicitly public abstract)
+- 🔒 Constant variables (implicitly public static final)
+- ⚙️ Static methods in interfaces (Java 8+)
+- 🎯 Default methods with implementation
+- 🔄 Method overriding in implementing classes
+- 🤝 Multiple interface implementation capability
+- 🔗 Interface inheritance using `extends` keyword
+- 📞 Accessing parent interface methods via `super`
+- 🆚 Key differences: Interface vs Abstract Class
+
 ---
 
 ## 🎨 What Makes This Different?
