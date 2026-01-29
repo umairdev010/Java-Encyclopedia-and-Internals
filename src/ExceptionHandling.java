@@ -45,7 +45,7 @@ public class ExceptionHandling {
             divide();  // here divide is giving checked exception we need to handle it
         } catch (RuntimeException e) {
             System.out.println(e);
-        } catch (CustomException e) {
+        } catch (CustomException e) {  // we can also make it final as final CustomException e if we want no one change e in the catch block
             e.printmessage();
         } finally {
             System.out.println("Program completed");
