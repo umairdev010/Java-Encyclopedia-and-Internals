@@ -52,8 +52,24 @@ public class ExceptionHandling {
         // JAVA'S BUILT IN EXCEPTIONS
         // In java standard java package java.lang, java created different exceptional class already called built in exceptions
         // There are two types of built-in exceptions
+
         // 1. Unchecked Exceptions
         // 2. Checked Exceptions
+
+        // 1. UNCHECKED EXCEPTIONS
+        // the compiler does not check if the method handle and throws these exceptions
+
+        // 2. CHECKED EXCEPTIONS
+        // we must include these in throws and otherwise we have to handle it.
+
+        // There are serval unchecked built in exceptions in java
+        //ArithmeticException ArrayIndexOutOfBoundsException NullPointerException ClassCastException IndexOutOfBoundsException IllegalStateException these are some of those
+
+
+        // There are few checked built in exceptions
+        // ClassNotFoundException CloneNotSupportedException IllegalAccessException InstantiationException InterruptedException NoSuchFieldException NoSuchMethodException
+        // These are checked exceptions
+
 
 
     }
