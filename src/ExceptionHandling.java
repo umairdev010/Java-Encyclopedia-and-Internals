@@ -42,9 +42,11 @@ public class ExceptionHandling {
         // And at the last the Exception class itself is subclassed of throwable
         try {
 
-            divide();
+            divide();  // here divide is giving checked exception we need to handle it
         } catch (RuntimeException e) {
             System.out.println(e);
+        } catch (CustomException e) {
+            e.printmessage();
         }
 
 
@@ -71,13 +73,33 @@ public class ExceptionHandling {
         // These are checked exceptions
 
 
+        // CREATING CUSTOM EXCEPTION OBJECTS
+        // making a object of class exception is generally making a custom exception
+        //
+
+
+
 
     }
 
-    static void divide() throws RuntimeException {
+    static void divide() throws RuntimeException, CustomException {
         System.out.println("hello before error");
-        throw new RuntimeException("error");
+        // throw new RuntimeException("error"); // here we are creating custom exception.
+        throw new CustomException("exception created by owner"); // here we create new exception object my own class.and it is checked exception
+    }
 
+}
+
+class CustomException extends Exception{
+    String message;
+
+    CustomException(){}
+    CustomException(String message){
+        this.message = message;
+    }
+
+    void printmessage(){
+        System.out.println("Error is : " + message);
     }
 
 }
