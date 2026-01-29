@@ -47,8 +47,10 @@ public class ExceptionHandling {
             System.out.println(e);
         } catch (CustomException e) {
             e.printmessage();
+        } finally {
+            System.out.println("Program completed");
         }
-
+        // java supports multi catch features so we can write as catch (RuntimeException | CustomException e)
 
 
         // JAVA'S BUILT IN EXCEPTIONS
