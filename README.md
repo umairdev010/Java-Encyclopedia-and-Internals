@@ -268,6 +268,21 @@ This isn't just another Java tutorial repository. It's a **complete encyclopedia
 - 📞 Accessing parent interface methods via `super`
 - 🆚 Key differences: Interface vs Abstract Class
 
+#### 📦 **ExceptionHandling.java** - Mastering Java Exception Management
+> *Build robust applications with comprehensive error handling*
+
+**What's Inside:**
+- 🛡️ Exception fundamentals and runtime behavior
+- 🔑 Five core keywords: try, catch, throw, throws, finally
+- ✅ Checked vs Unchecked exceptions explained
+- 🎯 Multi-catch blocks and exception hierarchy
+- 🔧 Creating custom exception classes
+- 📚 Built-in Java exceptions (ArithmeticException, NullPointerException, etc.)
+- 🎨 Custom exception objects with extended functionality
+- ⚠️ Exception propagation and method signatures
+- 🔄 Finally block execution guarantees
+- 💡 Best practices for exception handling patterns
+
 ---
 
 ## 🎨 What Makes This Different?
