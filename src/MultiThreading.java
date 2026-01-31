@@ -14,6 +14,14 @@ public class MultiThreading {
         // In process based multitasking program is the smallest unit of code dispatch by scheduler.
 
         // In Thread based multitasking thread is the smallest unit of dispatched code.
+
+        // Generally multithread give us the power of writing efficient programs that use maximum power of processor.
+
+        // JAVA THREAD MODEL
+        // Single thread system use an approach called event loop. (like in JavaScript).
+        // But in java pooling mechanism is eliminated.
+        // Here a thread can pause without stopping other parts of the program.
+        // If a thread blocks in java. that thread stops but else all continue to run.
         //
 
     }
